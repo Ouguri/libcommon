@@ -1,4 +1,5 @@
-// todo
-interface User {
-  name: string;
+export interface User {
+  username: string;
+  password?: string;
+  token?: string;
 }
