@@ -9,4 +9,5 @@ export interface Article {
   title: string;
   topic?: string;
   id?: string;
+  test?: string;
 }
